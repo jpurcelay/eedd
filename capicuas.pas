@@ -17,7 +17,7 @@ begin
 	writeln('');
 	writeln('Este programa escribe los numeros capicuas entre el 1 y el 50.000');
 	writeln('');
-	assign(fichero,'./50kcapicuas.longint');
+	assign(fichero,'./capicuas.int');
 	rewrite(fichero);
 	for i:=0 to N do
 		if i=reverso(i) then write(fichero,i);		

@@ -1,12 +1,12 @@
 unit primalidad;
 
 interface
-function esprimo(primo:integer):boolean;
+function esprimo(primo:longint):boolean;
 
 implementation
-function esprimo(primo:integer):boolean;
+function esprimo(primo:longint):boolean;
 var
-	k:integer;
+	k:longint;
 begin
 	if primo=2 then esprimo:=true
 	else if primo=3 then esprimo:=true
